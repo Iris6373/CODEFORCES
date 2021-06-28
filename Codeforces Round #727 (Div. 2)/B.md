@@ -88,7 +88,7 @@
         
         
     Time Complexity : O(t + q)
-                         O(t) to read the string
-                         O(1) for each query
+                      O(t) to read the string
+                      O(1) for each query
 
     Space Complexity : O(N)  Since a vector is used to store prefix sum
