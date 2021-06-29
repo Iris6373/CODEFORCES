@@ -3,7 +3,7 @@
 [B. Nice Matrix](https://codeforces.com/contest/1422/problem/B)
 
 
-## My solution :
+## My solution :  (Accepted)
 
     For row and columns to be palindrome, the four corners (i.e) [i,j], [i,n-1-j], [m-1-i][j], [m-1-i][n-1-j] must be same.
     Inorder to minimise the steps, we must binary search to find the optimum value 
@@ -102,12 +102,13 @@
       }
   
 
-    Time Complexity : O(t*m*n*log(max_element))
-                      t test cases
-                      m*n for scanning half the matrix
-                      log(max_element) for doing binary search from 1 to max({v[i,j], v[i,n-1-j], v[m-1-i][j], v[m-1-i][n-1-j]})
+    Time Complexity  : O(t*m*n*log(max_element))
+                       t test cases
+                       m*n for scanning half the matrix
+                       log(max_element) for doing binary search from 1 to max({v[i,j], v[i,n-1-j], v[m-1-i][j], v[m-1-i][n-1-j]})
 
-    Space Complexity : O(1)  Since no auxillary space other than input matrix is used.
+    Space Complexity : O(1)  
+                       Since no auxillary space other than input matrix is used.
    
   
   
