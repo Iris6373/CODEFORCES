@@ -8,8 +8,10 @@
     For row and columns to be palindrome, the four corners (i.e) [i,j], [i,n-1-j], [m-1-i][j], [m-1-i][n-1-j] must be same.
     Inorder to minimise the steps, we must binary search to find the optimum value 
   
+        
+   ### Code : (.cpp)  
+      
       // Iris_6373
-
 
       #include <bits/stdc++.h>
       using namespace std;
@@ -56,33 +58,17 @@
                       mi = l + (h-l)/2;
                       ll e = abs(a-mi) + abs(b-mi) + abs(c-mi) + abs(d-mi);
                       an = min(an,e);
-                      // cout << "l = " << l << "\tmi = " << mi << "\th = " << h << "\n";
-                      // cout << "lo = " << lo << "\te = " << e << "\thi = " << hi << "\n";
                       if (lo < hi) h = mi-1;
                       else l = mi+1;
                   }
                   if (i == m-1-i || j == n-1-j) an /= 2; 
-                  // cout << mi << " " << an << "\n";
                   ans += an;
-                  // cout << i << " " << j << " " << m-1-i << " " << n-1-j << "\n";
                   v[i][j] = mi;
                   v[i][n-1-j] = mi;
                   v[m-1-i][j] = mi;
                   v[m-1-i][n-1-j] = mi;
-                  // f1(x,m) {
-                  //     f1(y,n) {
-                  //         cout << v[x][y] << " ";
-                  //     }
-                  //     cout << "\n";
-                  // }
               }
           }
-          // f(m) {
-          //     f1(j,n) {
-          //         cout << v[i][j] << " ";
-          //     }
-          //     cout << "\n";
-          // }
           cout << ans << "\n";
       }
 
