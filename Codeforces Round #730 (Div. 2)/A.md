@@ -72,8 +72,7 @@
           //cerr << "Time Elapsed: " << ((double)(clock()-clk))/CLOCKS_PER_SEC << "\n";
           return 0;
       }   
-      
-  
+
 
     Time Complexity  : O(t)
                        t test cases
