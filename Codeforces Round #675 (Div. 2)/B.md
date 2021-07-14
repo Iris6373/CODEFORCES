@@ -1,6 +1,6 @@
 # Problem Statement
 
-[B. Nice Matrix](https://codeforces.com/contest/1422/problem/B)
+## [B. Nice Matrix](https://codeforces.com/contest/1422/problem/B)
 
 
 ## My solution :  (Accepted)
