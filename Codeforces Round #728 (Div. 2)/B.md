@@ -1,6 +1,6 @@
 # Problem Statement
 
-[B. Pleasant Pairs](https://codeforces.com/contest/1541/problem/B)
+## [B. Pleasant Pairs](https://codeforces.com/contest/1541/problem/B)
 
 
 ## My solution : 
