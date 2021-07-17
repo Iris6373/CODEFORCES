@@ -1,3 +1,3 @@
-# CODEFORCES
+# CP
 
-Codeforces Contest solutions in cpp
+CP Contest solutions in cpp
