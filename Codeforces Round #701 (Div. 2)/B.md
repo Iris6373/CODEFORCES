@@ -3,7 +3,17 @@
 ## [B. Replace and Keep Sorted](https://codeforces.com/contest/1485/problem/B)
 
 
-# My Solution
+# My Solution 
+    
+## 1) Prefix Sum 
+
+    We create a prefix array, which contains the total numbers less than v[i] and greater than v[i], but lesser than v[i+1].
+    
+    For each query, there are 3 cases
+    1) If a == b, then ans is k-1, because we can replace any no. from [1,k] except v[i]
+    2) If b-a == 1, then we take total numbers less than v[a-1] and greater than v[a-1], but lesser than v[b-1] and 
+       numbers less than v[b-1], but greater than v[a-1] and greater than v[b-1], but lesser than k+1.
+    3) Else we add prefix[b-1]-prefix[a-2] + left of a + right of b
     
     
    ### Code : (.cpp)
