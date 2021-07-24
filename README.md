@@ -1,3 +1,3 @@
 # CP
 
-CP Contest solutions in cpp
+CP Contests solutions in cpp
