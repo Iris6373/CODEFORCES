@@ -1,4 +1,6 @@
-# [Problem](https://codeforces.com/contest/1552/problem/A)
+# Problem
+
+## [Subsequence Permutation](https://codeforces.com/contest/1552/problem/A)
 
 
 # My Solution
