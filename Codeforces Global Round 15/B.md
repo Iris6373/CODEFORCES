@@ -4,7 +4,7 @@
 
 
 # Solution
-
+ 
 ## 1) My Solution - Sorting and Comparison - BETTER
 
     First, we store the index of each runner with his marathon positions in a vector of pairs.
