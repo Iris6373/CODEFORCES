@@ -2,7 +2,7 @@
 
 ## [B. Nice Matrix](https://codeforces.com/contest/1422/problem/B)
 
-
+ 
 ## My solution :  (Accepted)
 
     For row and columns to be palindrome, the four corners (i.e) [i,j], [i,n-1-j], [m-1-i][j], [m-1-i][n-1-j] must be same.
