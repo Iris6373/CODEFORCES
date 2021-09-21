@@ -4,7 +4,7 @@
 
 
 ## My solution :  (Accepted)
-
+ 
     The idea is to append 1's to already formed subsequences that end with 0 and vice versa.
     If there are no such subsequences available, we add a new subsequence to that list starting with that digit (0 or 1).
     Inorder to keep track of subsequence no., we use 2 stacks. 
