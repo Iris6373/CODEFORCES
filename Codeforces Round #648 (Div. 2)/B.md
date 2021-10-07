@@ -1,11 +1,11 @@
 # Problem Statement
 
-## [C. Rotation Matching](https://codeforces.com/problemset/problem/1365/C)
+## [B. Trouble Sort](https://codeforces.com/problemset/problem/1365/B)
 
 
 ## My solution :  (Accepted)
 
-      The jey observation here, if there is atleast 1 different b[i], then we can sort the array.
+      The key observation here, if there is atleast 1 different b[i], then we can sort the array.
       For e.g. If we want to swap 2 elements with same b[i], we can use the element with different b[i] for swapping them.
       
       If all the elements have same b[i], then it has to be sorted initially, else it cannot be sorted.
