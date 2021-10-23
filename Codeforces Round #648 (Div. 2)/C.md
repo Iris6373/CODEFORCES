@@ -4,7 +4,7 @@
 
 
 ## My solution :  (Accepted)
-
+ 
       The key observation is performing k left-shifts are same as n-k right-shifts, so anyone can be done (here, let's take right).
       Moreover, a right cyclic shift of b is the same as performing a left cyclic shift on a and vice versa. So we don't need to perform any shifts on b.
       Now, we just have to find the no. of matchings under each and every rotation.
