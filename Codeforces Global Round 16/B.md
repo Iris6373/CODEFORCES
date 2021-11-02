@@ -7,7 +7,7 @@
 
 ## 1) Bit Manipulation - OPTIMAL
 
-      
+       
       
       
    ### Code : (.cpp)
