@@ -5,7 +5,10 @@
 
 ## My solution :  (Accepted)
 
-      
+      The only possible substrings length are 2, 3, 4, 7.
+      It is beacause the valid strings are :
+                  aa, aba, aca, abca, acba, abbacca, accabba.
+                  
         
    ### Code : (.cpp)  
       
