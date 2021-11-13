@@ -5,8 +5,15 @@
 
 ## My solution :  (Accepted)
 
-      
-        
+      With the given operation, we can change any no. to any other.
+      So, we just have figure out what  a1+a3 - 2*a2  would be.
+      If we use the above operation and bring a1, a2, a3 as close as possible, there are 3 cases :
+            1. All are equal, i.e (a1+a2+a3) % 3 == 0, then ans = 0.   (1, 5, 6)  -->  (4,4,4) 
+            2. Else 2 nos. are equal and 1 no. is 1 greater than the other two.  (1, 6, 6)  -->  (5,4,4)
+            3. Else 2 nos. are equal and 1 no. is 1 lesser than the other two.  (1, 7, 6)  -->  (5,5,4)
+     
+     For the last 2 cases, the ans would always be 1 if we take a1 and a3 as different nos.
+            
         
    ### Code : (.cpp)  
       
