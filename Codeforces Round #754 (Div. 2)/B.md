@@ -5,7 +5,8 @@
 
 ## My solution :  (Accepted)
 
-      
+      The answer is always 1 subsequence beacuse we can always sort the whole string with 1 subsequence.
+      That subsequence is the set of indices which do not match with the sorted string.
         
         
    ### Code : (.cpp)  
