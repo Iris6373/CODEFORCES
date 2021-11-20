@@ -161,8 +161,9 @@
           }   
 
 
-    Time Complexity  : O(t)
+    Time Complexity  : O(t*n)
                        t test cases
-                       Each test case takes O(1) time. 
+                       Each test case takes O(n) time. 
 
-    Space Complexity : O(n)  
+    Space Complexity : O(1)
+                       Since no extra space is used.
