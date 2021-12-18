@@ -2,7 +2,7 @@
 
 ## [C. Maximize the Intersections](https://codeforces.com/contest/1552/problem/C)
 
-
+ 
 # My Solution
 
 ## 1) Joining Points i and i+k + Sorting chords wrt points
