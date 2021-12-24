@@ -2,7 +2,7 @@
 
 ## [C. Rotation Matching](https://codeforces.com/problemset/problem/1365/C)
 
-
+ 
 ## My solution :  (Accepted)
  
       The key observation is performing k left-shifts are same as n-k right-shifts, so anyone can be done (here, let's take right).
