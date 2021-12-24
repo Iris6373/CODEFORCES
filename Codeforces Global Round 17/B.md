@@ -2,7 +2,7 @@
 
 ## [B. Kalindrome Array](https://codeforces.com/contest/1610/problem/B)
 
-
+ 
 ## My solution :  (Accepted)
 
       If the array is not palindrome, either the first or last different element must be removed.
