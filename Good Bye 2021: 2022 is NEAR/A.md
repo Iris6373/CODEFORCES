@@ -118,5 +118,5 @@
                        t test cases
                        Each test case takes O(n) time. 
 
-    Space Complexity : O(1)
-                       No extra space is used.
+    Space Complexity : O(n)
+                       A map as extra space is used.
