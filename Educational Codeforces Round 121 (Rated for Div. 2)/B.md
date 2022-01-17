@@ -5,7 +5,12 @@
 
 ## My solution :  (Accepted)
 
-     
+     The given operation will always reduce the given number.
+     So, inorder to obtain largest number, we have 2 conditions :
+             1. If we can get the sum > 9 after adding 2 digits, we take the right most digits, as the first ones are more significant. (Refer 1st point).
+             2. If not available, then we add the 1st 2 digits (a and b). 
+                If we add any other pair of digits, the no. of digits gets reduced by 1 and the obtained number will always be less than the addition of 1st 2 digits.
+                Since a+b >= a.
   
         
    ### Code : (.cpp)  
