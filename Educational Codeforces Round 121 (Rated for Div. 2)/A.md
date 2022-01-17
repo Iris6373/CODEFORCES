@@ -5,8 +5,11 @@
 
 ## My solution :  (Accepted)
 
-     
+     The below solution is to first store the double chars once and store once again. And add the remaining chars at beginning or last.
+     Thus, distance between double characters are same. (= no. of double chars)
   
+     Alternate solution is to sort the string.
+     This way, the distance for all becomes 1.
         
    ### Code : (.cpp)  
       
