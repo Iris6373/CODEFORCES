@@ -5,7 +5,11 @@
 
 ## My solution :  (Accepted)
 
-     
+     This problem can be pictured as Merge Intervals problem.
+     Here, we create intervals, using 'k' and 'h' vectors. [k-h, k].
+     Next, we sort them.
+     Next, we merge intervals by condition, If end of recent interval >= start of current interval
+     Finally, we caluclate Mana of interval [a,b] by (b-a+1)*(b-a+2)/2.
   
         
    ### Code : (.cpp)  
