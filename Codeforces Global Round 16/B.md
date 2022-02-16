@@ -2,7 +2,7 @@
 
 ## [B. MIN-MEX Cut](https://codeforces.com/problemset/problem/1566/B)
 
-
+ 
 # Solution 
 
 ## 1) Bit Manipulation - OPTIMAL
