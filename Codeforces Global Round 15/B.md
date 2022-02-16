@@ -3,7 +3,7 @@
 ## [B. Running for Gold](https://codeforces.com/contest/1552/problem/B)
 
 
-# Solution
+# Solution 
  
 ## 1) My Solution - Sorting and Comparison - BETTER
 
