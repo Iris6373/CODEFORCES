@@ -2,7 +2,7 @@
 
 ## [C. Dijkstra?](https://codeforces.com/problemset/problem/20/C)
  
-
+ 
 ## 1) Dijkstra's algorithm + DFS backtracking :  (Accepted)
 
     Apply Dijstra's algorithm to find the shortest paths from node 1 to all nodes.
